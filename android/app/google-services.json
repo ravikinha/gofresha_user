@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "632725223997",
+    "project_id": "weirdo-353b6",
+    "storage_bucket": "weirdo-353b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:632725223997:android:a182efc4b0b26596d4c854",
+        "android_client_info": {
+          "package_name": "com.app.weirdo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "632725223997-iu8l54df1l0su1e8lon53e2g8ateaf52.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.weirdo",
+            "certificate_hash": "7ae441273dde463e14500535fed64f1c4506e7ef"
+          }
+        },
+        {
+          "client_id": "632725223997-neqj6combrl049id7arntma725prokbu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.weirdo",
+            "certificate_hash": "b3312483dd276efd33e0e5726619e3a38112e428"
+          }
+        },
+        {
+          "client_id": "632725223997-rm4jvdaoll212nif0rin6jh7kt3emjg9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCP3PkN5qkqO-y-niYJYl9Hb41Rgxh0xP0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "632725223997-rm4jvdaoll212nif0rin6jh7kt3emjg9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "632725223997-499762vecv8fuhjv39p90iv6kckpn2pb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.weirdo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
