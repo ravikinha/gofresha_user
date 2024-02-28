@@ -16,7 +16,7 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
-//git remote set-url origin https://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@github.com/ravikinha/heremap.git
+
 
 plugins {
     id "dev.flutter.flutter-plugin-loader" version "1.0.0"
