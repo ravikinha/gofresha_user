@@ -57,7 +57,7 @@ class _ResetPasswordScreenState extends State<ResetPasswordScreen> {
                       child: TextFormField(
                         textAlign: TextAlign.start,
                         autofocus: false,
-                        cursorColor: Colors.blue,
+                        cursorColor: Color(0xFF00547B),
                         enabled: true,
                         style: Theme.of(context).primaryTextTheme.headline6,
                         controller: _cNewPassword,
@@ -73,7 +73,7 @@ class _ResetPasswordScreenState extends State<ResetPasswordScreen> {
                       child: TextFormField(
                         textAlign: TextAlign.start,
                         autofocus: false,
-                        cursorColor: Colors.blue,
+                        cursorColor: Color(0xFF00547B),
                         enabled: true,
                         style: Theme.of(context).primaryTextTheme.headline6,
                         controller: _cConfirmPassword,

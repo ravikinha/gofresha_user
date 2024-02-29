@@ -93,7 +93,7 @@ class _SearchScreenState extends State<SearchScreen>
                     child: TextFormField(
                       textAlign: TextAlign.start,
                       autofocus: false,
-                      cursorColor: Colors.blue,
+                      cursorColor: Color(0xFF00547B),
                       enabled: true,
                       style: Theme.of(context).primaryTextTheme.titleLarge,
                       controller: _cSearch,
@@ -129,7 +129,7 @@ class _SearchScreenState extends State<SearchScreen>
                           child: Container(
                             width: 50,
                             decoration: BoxDecoration(
-                                color: Colors.blue,
+                                color: Color(0xFF00547B),
                                 borderRadius: BorderRadius.circular(5)),
                             child: Icon(
                               Icons.arrow_circle_down_outlined,
@@ -149,7 +149,7 @@ class _SearchScreenState extends State<SearchScreen>
                 Padding(
                   padding: const EdgeInsets.only(top: 10, left: 13, right: 13),
                   child: TabBar(
-                    indicatorColor: Colors.blue,
+                    indicatorColor: Color(0xFF00547B),
                     controller: _tabController,
                     overlayColor: MaterialStateProperty.all(Colors.transparent),
                     tabs: [

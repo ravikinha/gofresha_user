@@ -68,7 +68,7 @@ class _AddPhoneScreenState extends State<AddPhoneScreen> {
                   child: TextFormField(
                     textAlign: TextAlign.start,
                     autofocus: false,
-                    cursorColor: Colors.blue,
+                    cursorColor: Color(0xFF00547B),
                     enabled: true,
                     inputFormatters: [
                       FilteringTextInputFormatter.digitsOnly,
@@ -93,7 +93,7 @@ class _AddPhoneScreenState extends State<AddPhoneScreen> {
                 Padding(
                   padding: const EdgeInsets.only(top: 70.0),
                   child: MaterialButton(
-                      color: Colors.blue,
+                      color: Color(0xFF00547B),
                       onPressed: () {
                         _loginWithPhone();
                       },

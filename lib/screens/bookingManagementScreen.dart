@@ -69,7 +69,7 @@ class _BookingManagementScreenState extends State<BookingManagementScreen> {
                                 margin: EdgeInsets.only(bottom: 8),
                                 decoration: BoxDecoration(
                                   color: _allBookingsList![index].status == 6
-                                      ? Colors.blue[600]
+                                      ? Color(0xFF00547B)
                                       : _allBookingsList![index].status == 5
                                           ? Colors.grey
                                           : _allBookingsList![index].status == 4
@@ -77,7 +77,7 @@ class _BookingManagementScreenState extends State<BookingManagementScreen> {
                                               : _allBookingsList![index]
                                                           .status ==
                                                       3
-                                                  ? Colors.blue
+                                                  ? Color(0xFF00547B)
                                                   : _allBookingsList![index]
                                                               .status ==
                                                           1

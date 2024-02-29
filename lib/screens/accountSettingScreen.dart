@@ -183,7 +183,7 @@ class _AccountSettingScreenState extends State<AccountSettingScreen> {
                                       padding: EdgeInsets.all(0),
                                       margin: EdgeInsets.all(0),
                                       decoration: BoxDecoration(
-                                          color: Colors.blue,
+                                          color: Color(0xFF00547B),
                                           borderRadius:
                                               BorderRadius.circular(34)),
                                       child: Icon(
@@ -220,7 +220,7 @@ class _AccountSettingScreenState extends State<AccountSettingScreen> {
                       child: TextFormField(
                         textAlign: TextAlign.start,
                         autofocus: false,
-                        cursorColor: Colors.blue,
+                        cursorColor: Color(0xFF00547B),
                         style: Theme.of(context).inputDecorationTheme.hintStyle,
                         controller: _cName,
                         focusNode: _fName,
@@ -248,7 +248,7 @@ class _AccountSettingScreenState extends State<AccountSettingScreen> {
                       child: TextFormField(
                         textAlign: TextAlign.start,
                         autofocus: false,
-                        cursorColor: Colors.blue,
+                        cursorColor: Color(0xFF00547B),
                         enabled: true,
                         readOnly: true,
                         style: Theme.of(context).inputDecorationTheme.hintStyle,
@@ -275,7 +275,7 @@ class _AccountSettingScreenState extends State<AccountSettingScreen> {
                       child: TextFormField(
                         textAlign: TextAlign.start,
                         autofocus: false,
-                        cursorColor: Colors.blue,
+                        cursorColor: Color(0xFF00547B),
                         enabled: true,
                         readOnly: true,
                         style: Theme.of(context).inputDecorationTheme.hintStyle,
@@ -302,7 +302,7 @@ class _AccountSettingScreenState extends State<AccountSettingScreen> {
                       child: TextFormField(
                         textAlign: TextAlign.start,
                         autofocus: false,
-                        cursorColor: Colors.blue,
+                        cursorColor: Color(0xFF00547B),
                         enabled: true,
                         obscureText: true,
                         style: Theme.of(context).inputDecorationTheme.hintStyle,
@@ -333,7 +333,7 @@ class _AccountSettingScreenState extends State<AccountSettingScreen> {
                       child: TextFormField(
                         textAlign: TextAlign.start,
                         autofocus: false,
-                        cursorColor: Colors.blue,
+                        cursorColor: Color(0xFF00547B),
                         enabled: true,
                         obscureText: true,
                         style: Theme.of(context).inputDecorationTheme.hintStyle,
@@ -355,7 +355,7 @@ class _AccountSettingScreenState extends State<AccountSettingScreen> {
           MaterialButton(
               minWidth: 90.0.w,
               height: 45.0,
-              color: Colors.blue,
+              color: Color(0xFF00547B),
               child: Text(
                 (AppLocalizations.of(context)!.btn_save),
                 style: TextStyle(color: Colors.white),
@@ -495,7 +495,7 @@ class _AccountSettingScreenState extends State<AccountSettingScreen> {
           ],
           cancelButton: CupertinoActionSheetAction(
             child: Text(AppLocalizations.of(context)!.lbl_cancel,
-                style: TextStyle(color: Colors.blue)),
+                style: TextStyle(color: Color(0xFF00547B))),
             onPressed: () {
               Navigator.pop(context);
             },

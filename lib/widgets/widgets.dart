@@ -107,7 +107,7 @@ Future exitAppDialog(BuildContext context) async {
                 CupertinoDialogAction(
                   child: Text(
                     'Cancel',
-                    style: TextStyle(color: Colors.blue),
+                    style: TextStyle(color: Color(0xFF00547B)),
                   ),
                   onPressed: () {
                     // Dismiss the dialog but don't

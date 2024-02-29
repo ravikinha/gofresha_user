@@ -259,7 +259,7 @@ class _FavouritesScreenState extends State<FavouritesScreen> {
                             },
                             icon: Icon(
                               Icons.favorite,
-                              color: Colors.blue,
+                              color: Color(0xFF00547B),
                             )),
                       ),
                       placeholder: (context, url) =>

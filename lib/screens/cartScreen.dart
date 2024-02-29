@@ -242,7 +242,7 @@ class _CartScreenState extends State<CartScreen> {
                                               border: Border.all(
                                                   width: 1.0,
                                                   color:
-                                                      Colors.blue),
+                                                      Color(0xFF00547B)),
                                               borderRadius: BorderRadius.all(
                                                   Radius.circular(5.0)),
                                             ),
@@ -252,7 +252,7 @@ class _CartScreenState extends State<CartScreen> {
                                                 textAlign: TextAlign.center,
                                                 style: TextStyle(
                                                     color:
-                                                        Colors.blue,
+                                                        Color(0xFF00547B),
                                                     fontWeight:
                                                         FontWeight.bold),
                                               ),
@@ -375,7 +375,7 @@ class _CartScreenState extends State<CartScreen> {
                                               .copyWith(color: Colors.white))
                                     ])),
                                 trailing: MaterialButton(
-                                  color: Colors.blue,
+                                  color: Color(0xFF00547B),
                                   onPressed: () async {
                                     Navigator.of(context).push(
                                       MaterialPageRoute(
@@ -396,7 +396,7 @@ class _CartScreenState extends State<CartScreen> {
                                 crossAxisAlignment: CrossAxisAlignment.center,
                                 children: [
                                   MaterialButton(
-                                    color: Colors.blue,
+                                    color: Color(0xFF00547B),
                                     onPressed: () {
                                       Navigator.of(context).push(
                                         MaterialPageRoute(
@@ -515,7 +515,7 @@ class _CartScreenState extends State<CartScreen> {
                   CupertinoDialogAction(
                     child: Text(
                       AppLocalizations.of(context)!.lbl_no,
-                      style: TextStyle(color: Colors.blue),
+                      style: TextStyle(color: Color(0xFF00547B)),
                     ),
                     onPressed: () {
                       // Dismiss the dialog but don't

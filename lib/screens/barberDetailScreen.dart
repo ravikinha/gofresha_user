@@ -131,7 +131,7 @@ class _BarberDetailScreenState extends State<BarberDetailScreen> {
                             top: 70,
                             child: CircleAvatar(
                               radius: 60,
-                              backgroundColor: Colors.blue,
+                              backgroundColor: Color(0xFF00547B),
                               child: CachedNetworkImage(
                                 imageUrl: global.baseUrlForImage +
                                     _barberDetails!.staff_image!,

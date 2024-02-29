@@ -340,8 +340,8 @@ class _BarberShopDescriptionScreenState
                                   // height: 35,
                                   alignment: Alignment.center,
                                   child: TabBar(
-                                    indicatorColor: Colors.blue,
-                                    labelColor: Colors.blue,
+                                    indicatorColor: Color(0xFF00547B),
+                                    labelColor: Color(0xFF00547B),
                                     unselectedLabelColor: Colors.white,
                                     controller: _tabController,
                                     dividerColor: Colors.transparent,
@@ -409,7 +409,7 @@ class _BarberShopDescriptionScreenState
                             bottom: 1.5.h, left: 4.5.w, right: 4.5.w),
                         child: MaterialButton(
                           minWidth: 100.0.w,
-                          color: Colors.blue,
+                          color: Color(0xFF00547B),
                           onPressed: () {
                             global.user?.id == null
                                 ? Navigator.of(context).push(

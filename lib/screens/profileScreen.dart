@@ -363,7 +363,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   CupertinoDialogAction(
                     child: Text(
                       AppLocalizations.of(context)!.lbl_cancel,
-                      style: TextStyle(color: Colors.blue),
+                      style: TextStyle(color: Color(0xFF00547B)),
                     ),
                     onPressed: () {
                       // Dismiss the dialog but don't
@@ -456,7 +456,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 ),
                 CupertinoDialogAction(
                   child: Text(AppLocalizations.of(context)!.btn_delete,
-                      style: TextStyle(color: Colors.blue)),
+                      style: TextStyle(color: Color(0xFF00547B))),
                   onPressed: () async {
                     await apiHelper?.deleteAccount(global.user?.id);
                     global.sp.remove("currentUser");

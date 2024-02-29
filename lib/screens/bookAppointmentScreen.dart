@@ -141,7 +141,7 @@ class _BookAppointmentScreenState extends State<BookAppointmentScreen>
                                 Dismissible(
                                   background: Card(
                                     elevation: 0,
-                                    color: Colors.blue,
+                                    color: Color(0xFF00547B),
                                     shape: RoundedRectangleBorder(
                                         borderRadius: BorderRadius.circular(0)),
                                   ),
@@ -162,7 +162,7 @@ class _BookAppointmentScreenState extends State<BookAppointmentScreen>
                                     children: [
                                       Container(
                                           decoration: BoxDecoration(
-                                              color: Colors.blue,
+                                              color: Color(0xFF00547B),
                                               borderRadius: BorderRadius.only(
                                                   topRight: Radius.circular(10),
                                                   bottomRight:
@@ -306,7 +306,7 @@ class _BookAppointmentScreenState extends State<BookAppointmentScreen>
                                                   (i == 0 && step1Done) ||
                                                   (i == 1 && step2Done) ||
                                                   (i == 2 && step3Done)
-                                              ? Colors.blue
+                                              ? Color(0xFF00547B)
                                               : Colors.grey,
                                         ),
                                         i == 3
@@ -319,7 +319,7 @@ class _BookAppointmentScreenState extends State<BookAppointmentScreen>
                                                                 step2Done) ||
                                                             ((i == 2 - 1 &&
                                                                 step3Done))
-                                                        ? Colors.blue
+                                                        ? Color(0xFF00547B)
                                                         : Colors.black,
                                                 width: MediaQuery.of(context)
                                                         .size
@@ -535,7 +535,7 @@ class _BookAppointmentScreenState extends State<BookAppointmentScreen>
                 monthTextStyle: Theme.of(context).primaryTextTheme.bodyLarge!,
                 initialSelectedDate:
                     DateTime.parse(_bookingAppointment!.selected_date!),
-                selectionColor: Colors.blue,
+                selectionColor: Color(0xFF00547B),
                 selectedTextColor: Colors.white,
                 daysCount: 10,
                 onDateChange: (date) {
@@ -581,7 +581,7 @@ class _BookAppointmentScreenState extends State<BookAppointmentScreen>
                                   selectedTimeSlot ==
                                       _bookingAppointment!
                                           .time_slot![index].timeslot
-                              ? Colors.blue
+                              ? Color(0xFF00547B)
                               : _bookingAppointment!
                                           .time_slot![index].availibility ==
                                       true
@@ -691,7 +691,7 @@ class _BookAppointmentScreenState extends State<BookAppointmentScreen>
                           ),
                           color: _bookingAppointment!.staff_id ==
                                   _bookingAppointment!.barber[index].staff_id
-                              ? Colors.blue
+                              ? Color(0xFF00547B)
                               : Colors.white,
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.start,

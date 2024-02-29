@@ -95,7 +95,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                         global.user?.image != "")
                                     ? CircleAvatar(
                                         radius: 26,
-                                        backgroundColor: Colors.blue,
+                                        backgroundColor: Color(0xFF00547B),
                                         child: CachedNetworkImage(
                                           imageUrl: global.baseUrlForImage +
                                               global.user!.image!,
@@ -852,7 +852,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                                         null &&
                                                     _productList![index]
                                                         .isFavourite!
-                                                ? Colors.blue
+                                                ? Color(0xFF00547B)
                                                 : Colors.white,
                                         size: 20,
                                       )),

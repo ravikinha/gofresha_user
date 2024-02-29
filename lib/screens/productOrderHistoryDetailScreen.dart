@@ -114,7 +114,7 @@ class _ProductOrderHistoryDetailScreenState
                           backgroundColor: productOrderHistory.status == 4
                               ? Colors.grey
                               : productOrderHistory.status == 3
-                                  ? Colors.blue
+                                  ? Color(0xFF00547B)
                                   : productOrderHistory.status == 1
                                       ? Colors.amber
                                       : Colors.green[600],
@@ -634,7 +634,7 @@ class _ProductOrderHistoryDetailScreenState
                       child: TextFormField(
                         textAlign: TextAlign.start,
                         autofocus: false,
-                        cursorColor: Colors.blue,
+                        cursorColor: Color(0xFF00547B),
                         enabled: true,
                         style: Theme.of(context).inputDecorationTheme.hintStyle,
                         controller: _cCancelReason,
@@ -691,7 +691,7 @@ class _ProductOrderHistoryDetailScreenState
                     child: Text(AppLocalizations.of(context)!.lbl_confirm,
                         style: TextStyle(
                             fontSize: 15,
-                            color: Colors.blue,
+                            color: Color(0xFF00547B),
                             fontWeight: FontWeight.w400)),
                     onPressed: () async {
                       if (_cCancelReason.text.isNotEmpty &&

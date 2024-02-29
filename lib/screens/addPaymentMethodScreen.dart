@@ -67,7 +67,7 @@ class _AddPaymentMethodScreenState extends State<AddPaymentMethodScreen> {
                           ],
                           keyboardType: TextInputType.number,
                           autofocus: false,
-                          cursorColor: Colors.blue,
+                          cursorColor: Color(0xFF00547B),
                           enabled: true,
                           style: Theme.of(context).primaryTextTheme.headline6,
                           controller: _cCardNumber,
@@ -103,7 +103,7 @@ class _AddPaymentMethodScreenState extends State<AddPaymentMethodScreen> {
                         child: TextFormField(
                           textAlign: TextAlign.start,
                           autofocus: false,
-                          cursorColor: Colors.blue,
+                          cursorColor: Color(0xFF00547B),
                           enabled: true,
                           style: Theme.of(context).primaryTextTheme.headline6,
                           controller: _cCardHolderName,
@@ -156,7 +156,7 @@ class _AddPaymentMethodScreenState extends State<AddPaymentMethodScreen> {
                                     ],
                                     keyboardType: TextInputType.number,
                                     autofocus: false,
-                                    cursorColor: Colors.blue,
+                                    cursorColor: Color(0xFF00547B),
                                     enabled: true,
                                     style: Theme.of(context)
                                         .primaryTextTheme
@@ -208,7 +208,7 @@ class _AddPaymentMethodScreenState extends State<AddPaymentMethodScreen> {
                                     ],
                                     keyboardType: TextInputType.number,
                                     autofocus: false,
-                                    cursorColor: Colors.blue,
+                                    cursorColor: Color(0xFF00547B),
                                     enabled: true,
                                     style: Theme.of(context)
                                         .primaryTextTheme

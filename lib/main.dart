@@ -76,7 +76,7 @@ void configLoading() {
     ..backgroundColor = Colors.green
     ..indicatorColor = Colors.yellow
     ..textColor = Colors.yellow
-    ..maskColor = Colors.blue.withOpacity(0.5)
+    ..maskColor = Color(0xFF00547B).withOpacity(0.5)
     ..userInteractions = false
     ..dismissOnTap = false;
 }

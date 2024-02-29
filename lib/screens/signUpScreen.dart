@@ -163,7 +163,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                         padding: EdgeInsets.all(0),
                                         margin: EdgeInsets.all(0),
                                         decoration: BoxDecoration(
-                                            color: Colors.blue,
+                                            color: Color(0xFF00547B),
                                             borderRadius:
                                                 BorderRadius.circular(34)),
                                         child: Icon(
@@ -192,7 +192,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                         FilteringTextInputFormatter.deny(RegExp(r'[0-9]'))
                       ],
                       textCapitalization: TextCapitalization.words,
-                      cursorColor: Colors.blue,
+                      cursorColor: Color(0xFF00547B),
                       enabled: true,
                       style: Theme.of(context).primaryTextTheme.headline6,
                       controller: _cName,
@@ -218,7 +218,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                           return null;
                         }
                       },
-                      cursorColor: Colors.blue,
+                      cursorColor: Color(0xFF00547B),
                       enabled: true,
                       readOnly: email != null ? true : false,
                       keyboardType: TextInputType.emailAddress,
@@ -251,7 +251,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                         LengthLimitingTextInputFormatter(_phoneNumberLength),
                       ],
                       keyboardType: TextInputType.number,
-                      cursorColor: Colors.blue,
+                      cursorColor: Color(0xFF00547B),
                       enabled: true,
                       style: Theme.of(context).primaryTextTheme.headline6,
                       controller: _cMobile,
@@ -268,7 +268,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                     TextFormField(
                       textAlign: TextAlign.start,
                       autofocus: false,
-                      cursorColor: Colors.blue,
+                      cursorColor: Color(0xFF00547B),
                       enabled: true,
                       validator: (value) {
                         if (value!.isEmpty) {
@@ -307,7 +307,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                       textAlign: TextAlign.start,
                       autofocus: false,
                       obscureText: !_isConfirmPasswordVisible,
-                      cursorColor: Colors.blue,
+                      cursorColor: Color(0xFF00547B),
                       enabled: true,
                       validator: (value) {
                         if (value!.isEmpty) {
@@ -349,7 +349,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                       validator: (value) {
                         return null;
                       },
-                      cursorColor: Colors.blue,
+                      cursorColor: Color(0xFF00547B),
                       enabled: true,
                       style: Theme.of(context).primaryTextTheme.headline6,
                       controller: _cReferralCode,
@@ -374,7 +374,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                 Icons.check_circle,
                                 size: 20,
                                 color: _isAgree
-                                    ? Colors.blue
+                                    ? Color(0xFF00547B)
                                     : Color(0xFF898A8D),
                               ),
                               Padding(
@@ -416,7 +416,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                     MaterialButton(
                       height: 50,
                       minWidth: double.infinity,
-                      color: Colors.blue,
+                      color: Color(0xFF00547B),
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(8.0)),
                       onPressed: () {
@@ -545,7 +545,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
           ],
           cancelButton: CupertinoActionSheetAction(
             child: Text(AppLocalizations.of(context)!.lbl_cancel,
-                style: TextStyle(color: Colors.blue)),
+                style: TextStyle(color: Color(0xFF00547B))),
             onPressed: () {
               Navigator.pop(context);
             },

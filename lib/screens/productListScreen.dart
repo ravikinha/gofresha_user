@@ -196,7 +196,7 @@ class _ProductListScreenState extends State<ProductListScreen> {
                                   ? Icons.favorite
                                   : Icons.favorite_outline,
                               color: _productList[index].isFavourite!
-                                  ? Colors.blue
+                                  ? Color(0xFF00547B)
                                   : Colors.white,
                             )),
                       ),
@@ -346,7 +346,7 @@ class _ProductListScreenState extends State<ProductListScreen> {
                             width: 20,
                             decoration: BoxDecoration(
                               border: Border.all(
-                                  width: 1.0, color: Colors.blue),
+                                  width: 1.0, color: Color(0xFF00547B)),
                               borderRadius:
                                   BorderRadius.all(Radius.circular(5.0)),
                             ),
@@ -354,7 +354,7 @@ class _ProductListScreenState extends State<ProductListScreen> {
                               child: Text(
                                 "${_productList[index].cart_qty}",
                                 textAlign: TextAlign.center,
-                                style: TextStyle(color: Colors.blue),
+                                style: TextStyle(color: Color(0xFF00547B)),
                               ),
                             ),
                           ),

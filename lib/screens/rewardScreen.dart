@@ -166,7 +166,7 @@ class _RewardScreenState extends State<RewardScreen> {
         height: ((MediaQuery.of(context).size.width / 2) - 20) * 1.3,
         width: (MediaQuery.of(context).size.width / 2) - 20,
         child: Card(
-            color: Colors.blue,
+            color: Color(0xFF00547B),
             margin: const EdgeInsets.only(left: 4, right: 4, top: 4, bottom: 4),
             child: Padding(
               padding: const EdgeInsets.all(8.0),
@@ -217,7 +217,7 @@ class _RewardScreenState extends State<RewardScreen> {
                   height: ((MediaQuery.of(context).size.width / 2) - 20) * 1.3,
                   width: (MediaQuery.of(context).size.width / 2) - 20,
                   child: Card(
-                    color: Colors.blue,
+                    color: Color(0xFF00547B),
                     margin: const EdgeInsets.only(
                         left: 4, right: 4, top: 4, bottom: 4),
                   ));

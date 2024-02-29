@@ -124,7 +124,7 @@ class _SignInScreenState extends State<SignInScreen> {
                       child: TextFormField(
                         textAlign: TextAlign.start,
                         autofocus: false,
-                        cursorColor: Colors.blue,
+                        cursorColor: Color(0xFF00547B),
                         enabled: true,
                         style: Theme.of(context).primaryTextTheme.headline6,
                         controller: _cEmail,
@@ -142,7 +142,7 @@ class _SignInScreenState extends State<SignInScreen> {
                       child: TextFormField(
                         textAlign: TextAlign.start,
                         autofocus: false,
-                        cursorColor: Colors.blue,
+                        cursorColor: Color(0xFF00547B),
                         enabled: true,
                         style: Theme.of(context).primaryTextTheme.headline6,
                         controller: _cPassword,
@@ -188,7 +188,7 @@ class _SignInScreenState extends State<SignInScreen> {
                                   Icons.check_circle,
                                   size: 20,
                                   color: _isRemember
-                                      ? Colors.blue
+                                      ? Color(0xFF00547B)
                                       : Color(0xFF898A8D),
                                 ),
                                 Padding(

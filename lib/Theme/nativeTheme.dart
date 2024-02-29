@@ -17,15 +17,15 @@ Map<int, Color> color = {
 ThemeData nativeTheme() {
   return ThemeData(
     textSelectionTheme: TextSelectionThemeData(
-        cursorColor: Colors.blue,
-        selectionHandleColor: Colors.blue),
+        cursorColor: Color(0xFF00547B),
+        selectionHandleColor: Color(0xFF00547B)),
     splashFactory: NoSplash.splashFactory,
     useMaterial3: true,
 
-    primaryColor: Colors.blue,
+    primaryColor: Color(0xFF00547B),
     primaryColorLight: Color(0xFF898A8D), // Color(0xFF66d5ff),
-    primaryColorDark: Colors.blue,
-    primaryIconTheme: IconThemeData(color: Colors.blue),
+    primaryColorDark: Color(0xFF00547B),
+    primaryIconTheme: IconThemeData(color: Color(0xFF00547B)),
     cardColor: Colors.white,
     primaryTextTheme: TextTheme(
       displayLarge: TextStyle(
@@ -45,7 +45,7 @@ ThemeData nativeTheme() {
           fontWeight: FontWeight.bold), // signup && sign in
       headlineSmall: TextStyle(
           fontSize: 15,
-          color: Colors.blue,
+          color: Color(0xFF00547B),
           fontWeight: FontWeight.w400), // - homeScreen - orange
       titleLarge: TextStyle(
           fontSize: 15,
@@ -85,7 +85,7 @@ ThemeData nativeTheme() {
     ),
     scaffoldBackgroundColor: Colors.white,
     floatingActionButtonTheme: FloatingActionButtonThemeData(
-      backgroundColor: Colors.blue,
+      backgroundColor: Color(0xFF00547B),
     ),
     dialogTheme: DialogTheme(
       shape: RoundedRectangleBorder(
@@ -93,14 +93,14 @@ ThemeData nativeTheme() {
       ),
       backgroundColor: Colors.grey[100],
       titleTextStyle:
-          TextStyle(fontWeight: FontWeight.bold, color: Colors.blue),
+          TextStyle(fontWeight: FontWeight.bold, color: Color(0xFF00547B)),
     ),
     fontFamily: 'Poppins',
     dividerColor: Colors.transparent,
     buttonTheme: ButtonThemeData(
       textTheme: ButtonTextTheme.primary,
       height: 50,
-      buttonColor: Colors.blue,
+      buttonColor: Color(0xFF00547B),
       focusColor: Colors.transparent,
       highlightColor: Colors.transparent,
       hoverColor: Colors.transparent,
@@ -133,7 +133,7 @@ ThemeData nativeTheme() {
         borderSide: BorderSide(color: Color(0xFF898A8D).withOpacity(0.2)),
       ),
       focusedErrorBorder: OutlineInputBorder(
-        borderSide: BorderSide(color: Colors.blue),
+        borderSide: BorderSide(color: Color(0xFF00547B)),
         borderRadius: BorderRadius.all(Radius.circular(5)),
       ),
       disabledBorder: OutlineInputBorder(
@@ -141,11 +141,11 @@ ThemeData nativeTheme() {
         borderRadius: BorderRadius.all(Radius.circular(5)),
       ),
       errorBorder: OutlineInputBorder(
-        borderSide: BorderSide(color: Colors.blue),
+        borderSide: BorderSide(color: Color(0xFF00547B)),
         borderRadius: BorderRadius.all(Radius.circular(5)),
       ),
       focusedBorder: OutlineInputBorder(
-        borderSide: BorderSide(color: Colors.blue),
+        borderSide: BorderSide(color: Color(0xFF00547B)),
         borderRadius: BorderRadius.all(Radius.circular(5)),
       ),
       filled: true,
@@ -154,7 +154,7 @@ ThemeData nativeTheme() {
     ),
     bottomNavigationBarTheme: BottomNavigationBarThemeData(
       backgroundColor: Color(0xFF171D2C),
-      selectedIconTheme: IconThemeData(color: Colors.blue, size: 26),
+      selectedIconTheme: IconThemeData(color: Color(0xFF00547B), size: 26),
       unselectedIconTheme: IconThemeData(color: Color(0xFF898A8D), size: 26),
     ),
     appBarTheme: AppBarTheme(
@@ -178,7 +178,7 @@ ThemeData nativeTheme() {
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ButtonStyle(
         backgroundColor: MaterialStateProperty.all(
-          Colors.blue,
+          Color(0xFF00547B),
         ),
         textStyle: MaterialStateProperty.all(TextStyle(
             fontSize: 16, color: Colors.white, fontWeight: FontWeight.w400)),
@@ -187,7 +187,7 @@ ThemeData nativeTheme() {
     textButtonTheme: TextButtonThemeData(
         style: ButtonStyle(
       padding: MaterialStateProperty.all(EdgeInsets.all(0)),
-      backgroundColor: MaterialStateProperty.all(Colors.blue),
+      backgroundColor: MaterialStateProperty.all(Color(0xFF00547B)),
       shadowColor: MaterialStateProperty.all(Colors.white),
       foregroundColor: MaterialStateProperty.all(Colors.white),
       shape: MaterialStateProperty.all(RoundedRectangleBorder(
@@ -219,6 +219,6 @@ ThemeData nativeTheme() {
         behavior: SnackBarBehavior.fixed),
     colorScheme:
         ColorScheme.fromSwatch(primarySwatch: MaterialColor(0xFF0195ff, color))
-            .copyWith(secondary: Colors.blue),
+            .copyWith(secondary: Color(0xFF00547B)),
   );
 }

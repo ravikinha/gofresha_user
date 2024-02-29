@@ -195,7 +195,7 @@ class _PaymentGatewayScreenState extends State<PaymentGatewayScreen>
                         ])),
                     trailing: _isCOD
                         ? MaterialButton(
-                            color: Colors.blue,
+                            color: Color(0xFF00547B),
                             onPressed: () {
                               screenId == 1
                                   ? _checkOut()
@@ -1058,7 +1058,7 @@ class _PaymentGatewayScreenState extends State<PaymentGatewayScreen>
                   CupertinoDialogAction(
                     child: Text(
                       AppLocalizations.of(context)!.lbl_cancel,
-                      style: TextStyle(color: Colors.blue),
+                      style: TextStyle(color: Color(0xFF00547B)),
                     ),
                     onPressed: () {
                       Navigator.of(context).pop();

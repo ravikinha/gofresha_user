@@ -142,7 +142,7 @@ class _NotificationScreenState extends State<NotificationScreen> {
                   CupertinoDialogAction(
                     child: Text(
                       AppLocalizations.of(context)!.lbl_no,
-                      style: TextStyle(color: Colors.blue),
+                      style: TextStyle(color: Color(0xFF00547B)),
                     ),
                     onPressed: () {
                       // Dismiss the dialog but don't

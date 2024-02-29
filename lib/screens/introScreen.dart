@@ -146,7 +146,7 @@ class _IntroScreenState extends State<IntroScreen> {
                                             children: [
                                               MaterialButton(
                                                 height: 45.0,
-                                                color: Colors.blue,
+                                                color: Color(0xFF00547B),
                                                 onPressed: () {
                                                   _pageController!
                                                       .animateToPage(
@@ -164,7 +164,7 @@ class _IntroScreenState extends State<IntroScreen> {
                                               ),
                                               MaterialButton(
                                                   height: 45.0,
-                                                  color: Colors.blue,
+                                                  color: Color(0xFF00547B),
                                                   onPressed: () {
                                                     Navigator.of(context).push(
                                                       MaterialPageRoute(
@@ -189,7 +189,7 @@ class _IntroScreenState extends State<IntroScreen> {
                                       : MaterialButton(
                                           minWidth: 90.0.w,
                                           height: 45.0,
-                                          color: Colors.blue,
+                                          color: Color(0xFF00547B),
                                           onPressed: () {
                                             Navigator.of(context).push(
                                               MaterialPageRoute(

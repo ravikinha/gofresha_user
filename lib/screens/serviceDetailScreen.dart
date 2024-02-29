@@ -334,7 +334,7 @@ class _ServiceDetailScreenState extends State<ServiceDetailScreen> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       MaterialButton(
-                          color: Colors.blue,
+                          color: Color(0xFF00547B),
                           onPressed: () {
                             Navigator.of(context).push(
                               MaterialPageRoute(

@@ -177,7 +177,7 @@ class _ProductOrderHistoryScreenState extends State<ProductOrderHistoryScreen> {
                                                                   index]
                                                               .status ==
                                                           3
-                                                      ? Colors.blue
+                                                      ? Color(0xFF00547B)
                                                       : _productOrderHistoryList![
                                                                       index]
                                                                   .status ==

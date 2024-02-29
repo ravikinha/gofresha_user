@@ -97,7 +97,7 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
                                               ? Icons.favorite
                                               : Icons.favorite_outline,
                                           color: _productDetail!.isFavourite
-                                              ? Colors.blue
+                                              ? Color(0xFF00547B)
                                               : Colors.white,
                                         ))
                                   ],
@@ -158,7 +158,7 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
                                               ? Icons.favorite
                                               : Icons.favorite_outline,
                                           color: _productDetail!.isFavourite
-                                              ? Colors.blue
+                                              ? Color(0xFF00547B)
                                               : Colors.white,
                                         ))
                                   ],
@@ -223,7 +223,7 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 MaterialButton(
-                    color: Colors.blue,
+                    color: Color(0xFF00547B),
                     onPressed: () async {
                       global.user!.id == null
                           ? Navigator.of(context).push(
